@@ -1,0 +1,50 @@
+/***************************GOOGLE LOGO*********************************/
+.style1 {
+    margin: -17px 70px;
+    background-color: #eeeefc;
+    text-align: center;
+}
+
+.form {
+    margin: -15px;
+    height: 50px;
+    text-align: center;
+}
+
+#search {
+    width: 309px;
+}
+
+.btn1 {
+    float: left;
+    padding: -10px;
+    margin: -14px 690px;
+}
+
+.btn2 {
+    float: right;
+    padding: -10px;
+    margin: -14px 690px;
+}
+
+.style2  {
+    margin: -22px 71px;
+    text-align: center;  
+}
+
+.left-bar {
+    width: 600px;
+}
+
+.center-bar {
+    width: 600px;     
+}
+
+.right-bar {
+    width: 600px; 
+}
+
+.style3  {
+    margin: -20px 200px -3px;
+    text-align: center;  
+}
