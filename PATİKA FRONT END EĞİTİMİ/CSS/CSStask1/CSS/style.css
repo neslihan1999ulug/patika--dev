@@ -1,0 +1,86 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url(../Assets/image.jpg);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-bar{
+    background-color: rgb(51, 34, 99);
+    text-align: center;
+    
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    background-image: url(../Assets/logo.jpg);
+    float: left;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 5px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+.active, .menu-bar ul li:hover{
+    background-color: rgb(206, 137, 166);
+    border-radius: 10px;
+}
+.menu-bar .fas{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover> .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(139, 235, 76);
+    margin-top: 15px;
+}
+.container{
+    display: inline-flex;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: azure;
+    border-radius: 25px; 
+    margin-left: 150px;
+    margin-top: 80px;
+
+}
+.circle-image{
+    width: 230px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 10%;
+    margin-left: 10px;
+
+}
+.price{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.product{ 
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}

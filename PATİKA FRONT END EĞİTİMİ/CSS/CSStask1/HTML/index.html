@@ -5,70 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Müzik Evi</title>
-    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-
-    src
-    
-<!-- Navbar - Start -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-      </div>
+<body class="body">
+  <div class="menu-bar">
+    <div id="logo"></div>
+    <ul>
+      <li class="active"><a href="index.html"><i class="fas fa-home" ></i> Ana sayfa</a></li>
+      <li class="active"><a href="abous-us.html"><i class="fas fa-address-card"></i>Hakkımızda</a></li>
+        <div class="sub-menu-1">
+          <ul>
+            <li>
+                <a href="#">Misyonumuz</a>
+                <a href="#">Vizyonumuz</a>
+            </li>
+          </ul>
+        </div>
+      <li class="active"><a href="products.html"><i class="fas fa-clone" ></i>Ürünlerimiz</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="box">
+      <h3 class="product"> Gitar</h3>
+      <p class="price">900,00 TL</p>
+      <div class="circle-image"><img src="../Assets/guitar.jpg" alt=""></div>
     </div>
-  </nav>
-
-
-
-
-
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Anasayfa</a>
-                </li>
-                <li>
-                    <a href="about-us.html">Hakkımızda</a>
-                </li>
-                <li>
-                    <a href="products.html">Ürünlerimiz</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-<!-- Navbar - End -->
-<header>
-    <nav>
-        <center> <h1> </h1></center>
-    </nav>
-</header>
-
-
-
+  
+    <div class="box">
+      <h3 class="product"> Keman</h3>
+      <p class="price">2.300,00 TL</p>
+      <div class="circle-image"><img src="../Assets/keman1.jpg" alt=""></div>
+    </div>
+    
+    <div class="box">
+      <h3 class="product"> Bağlama</h3>
+      <p class="price">1.500,00 TL</p>
+      <div class="circle-image"><img src="../Assets/imagess.jpg" alt=""></div>
+    </div>
+  </div>
+  
 </body>
-
-
-
-
-
 </html>
